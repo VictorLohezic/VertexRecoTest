@@ -10,7 +10,7 @@ using namespace lcio;
 using namespace marlin;
 
 
-namespace TTbarAnalysis
+namespace QQbarAnalysis
 {
 	// ====================================================================
 	int AlgebraImplementation::GetCovMatrixMomenta(ReconstructedParticle const *par,

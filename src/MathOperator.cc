@@ -1,6 +1,6 @@
 #include "MathOperator.hh"
 using std::vector;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	bool MathOperator::approximatelyEqual(const double * start1, const double * start2)
 	{

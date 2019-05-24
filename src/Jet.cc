@@ -2,7 +2,7 @@
 #include "Jet.hh"
 using EVENT::ReconstructedParticle;
 using std::vector;
-namespace TTbarAnalysis
+namespace QQbarAnalysis
 {
 	Jet::Jet (float btag,float ctag, int number,const double * momentum)
 	{

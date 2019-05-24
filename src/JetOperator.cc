@@ -1,11 +1,13 @@
-
 #include "JetOperator.hh"
+#include "TVector3.h"
+using namespace lcio ;
+using namespace marlin ;
 using std::vector;
 using std::string;
 using EVENT::LCCollection;
 using EVENT::MCParticle;
 using EVENT::ReconstructedParticle;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	JetOperator:: JetOperator ( ) 
 	{

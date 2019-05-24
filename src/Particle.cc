@@ -4,7 +4,7 @@ using std::string;
 using EVENT::Vertex;
 using EVENT::ReconstructedParticle;
 using EVENT::MCParticle;
-namespace TTbarAnalysis
+namespace QQbarAnalysis
 {
 	Particle::Particle ()
 	{

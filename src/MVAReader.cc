@@ -1,7 +1,7 @@
 #include "MVAReader.hh"
 using std::vector;
 using std::string;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	MVAReader::MVAReader(string weightpath)
 	{
@@ -52,4 +52,4 @@ namespace TTbarAnalysis
 		delete reader;
 		return tag;
 	}
-} /* TTbarAnalysis */
+} /* QQbarAnalysis */

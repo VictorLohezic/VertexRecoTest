@@ -3,7 +3,7 @@
 using EVENT::ReconstructedParticle;
 using IMPL::ReconstructedParticleImpl;
 using std::vector;
-namespace TTbarAnalysis
+namespace QQbarAnalysis
 {
 	RecoJet::RecoJet (ReconstructedParticle * rawjet, float btag,float ctag, int number)
 	//: IMPL::ReconstructedParticleImpl(rawjet)

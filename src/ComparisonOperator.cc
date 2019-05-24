@@ -9,7 +9,7 @@ using EVENT::ReconstructedParticle;
 using IMPL::ReconstructedParticleImpl;
 using UTIL::LCRelationNavigator;
 using EVENT::LCObject;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	ComparisonOperator:: ComparisonOperator(LCCollection * pfo, LCCollection * egprongs, LCCollection * trackrel)
 	{

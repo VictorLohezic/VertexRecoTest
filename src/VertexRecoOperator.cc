@@ -4,7 +4,7 @@ using std::string;
 using EVENT::LCCollection;
 using EVENT::Vertex;
 using EVENT::ReconstructedParticle;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	VertexRecoOperator:: VertexRecoOperator() 
 	{
@@ -318,4 +318,4 @@ namespace TTbarAnalysis
 		vector<float> direction = MathOperator::getDirection(convert);//particle->getMomentum());
 		return MathOperator::getAngles(direction);
 	}
-} /* TTbarAnalysis */
+} /* QQbarAnalysis */

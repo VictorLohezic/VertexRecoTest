@@ -2,7 +2,7 @@
 using std::vector;
 using EVENT::MCParticle;
 using IMPL::VertexImpl;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	MyVertex:: MyVertex()
 	{

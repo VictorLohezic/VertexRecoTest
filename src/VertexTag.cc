@@ -2,7 +2,7 @@
 using std::vector;
 using std::string;
 using EVENT::Vertex;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	VertexTag:: VertexTag(Vertex * recoVertex, Vertex * mcVertex)
 	{
@@ -78,4 +78,4 @@ namespace TTbarAnalysis
 	}
 
 
-} /* TTbarAnalysis */
+} /* QQbarAnalysis */

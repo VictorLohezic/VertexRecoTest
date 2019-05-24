@@ -1,11 +1,14 @@
 #include "JetVertexOperator.hh"
+#include "TVector3.h"
+using namespace lcio ;
+using namespace marlin ;
 using std::vector;
 using std::string;
 using EVENT::LCCollection;
 using EVENT::MCParticle;
 using EVENT::Vertex;
 using EVENT::ReconstructedParticle;
-namespace TTbarAnalysis 
+namespace QQbarAnalysis 
 {
 	JetVertexOperator:: JetVertexOperator (LCCollection * pfo, LCCollection * egprongs, LCCollection * trackrel)
 	{
@@ -138,6 +141,15 @@ namespace TTbarAnalysis
 						std::cout << "Jet skipped by index\n";
 						continue;
 					}
+
+					// this is a test
+					/*
+					std::cerr << "positionmc [0] = " << positionmc[0] << ", ";
+					std::cerr << "[1] = " << positionmc[1] << ", ";
+					std::cerr << "[2] = " << positionmc[2] << std::endl;
+					*/
+
+
 					float angle = MathOperator::getAngleBtw(mcparticle->getMomentum(), jetpart->getMomentum());
 					std::cout << "Angle: " << angle << "\n";
 					if (angle < minangle)

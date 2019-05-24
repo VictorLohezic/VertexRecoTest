@@ -7,7 +7,7 @@ using EVENT::Track;
 using EVENT::Vertex;
 using EVENT::ReconstructedParticle;
 using IMPL::ReconstructedParticleImpl;
-namespace TTbarAnalysis
+namespace QQbarAnalysis
 {
 	TrackOperator:: TrackOperator()
 	{
